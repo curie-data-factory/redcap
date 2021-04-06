@@ -39,8 +39,6 @@ RUN usermod -g www-data redcap
 
 COPY code /code
 
-COPY redcap-modules /code/redcap/modules
-
 RUN mkdir /var/www/site/ && \
     mkdir /etc/mail && \
     mv /code/redcap/* /var/www/site/ && \
@@ -59,7 +57,6 @@ RUN chown -R redcap:www-data /var/www/site
 RUN ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 
 # Pour la persistence des documents
-RUN mkdir /dddMountEdocs
 RUN mkdir /remoteedocs
 
 # Expose apache.
