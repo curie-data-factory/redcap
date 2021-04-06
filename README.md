@@ -1,7 +1,6 @@
 # Redcap
 
-Redcap is a proprietary CRF Research TOOL, Institut Curie **is NOT** propryetary and has no delegation to use or distribute this software.
-You have to be in compliance with all requirements from the Redcap owner when you use it. Insitut Curie cannot be responsible of the use of redcap software.
+Redcap is a proprietary CRF Research TOOL, Institut Curie **is NOT** proprietary and has no delegation to use or distribute this software. You must follow all requirements from the Redcap owner when you use it. Institut Curie cannot be responsible of the use of redcap software.
 
 It only gives you the definition file (Dockerfile) for the redcap runtime environment.
 
