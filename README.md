@@ -1,5 +1,7 @@
 # Redcap
 
+![https://eds.aphp.fr/sites/default/files/inline-images/redcap.png](https://eds.aphp.fr/sites/default/files/inline-images/redcap.png)
+
 Redcap is a proprietary CRF Research TOOL, Institut Curie **is NOT** proprietary and has no delegation to use or distribute this software. You must follow all requirements from the Redcap owner when you use it. Institut Curie cannot be responsible of the use of redcap software.
 
 It only gives you the definition file (Dockerfile) for the redcap runtime environment.
